@@ -1,0 +1,33 @@
+/* space-grotesk-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/space-grotesk-v15-latin-500.woff2") format("woff2"),
+    url("./fonts/space-grotesk-v15-latin-500.woff") format("woff");
+}
+/* space-grotesk-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/space-grotesk-v15-latin-700.woff2") format("woff2"),
+    url("./fonts/space-grotesk-v15-latin-700.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
